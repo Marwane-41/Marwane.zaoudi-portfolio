@@ -14,21 +14,21 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                 <div className="flex justify-between items-center h-16">
                     <a href="#home" className="font-mono text-xl font-bold text-white">
 
-                    {" "}
-                    marwane<span className="text-blue-500">.zaoudi</span>{" "}
+                    
+                    marwane<span className="text-blue-500">.zaoudi</span>
                     </a>
 
                     <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" 
                     onClick={()=> setMenuOpen((prev)=> !prev)}>
-                        &#9776;
+                    &#9776;
                     </div>
 
 
                     <div className="hidden md:flex items-center space-x-8">
-                        <a href="#home" className="tex-gray-300 hove:text-white transition-colors">  Home </a>
-                        <a href="#about" className="tex-gray-300 hove:text-white transition-colors">  about </a>
-                        <a href="#projects" className="tex-gray-300 hove:text-white transition-colors">  projects </a>
-                        <a href="#contact" className="tex-gray-300 hove:text-white transition-colors">  contact </a>
+                        <a href="#home" className="text-gray-300 hove:text-white transition-colors">  Home </a>
+                        <a href="#about" className="text-gray-300 hove:text-white transition-colors">  about </a>
+                        <a href="#projects" className="text-gray-300 hove:text-white transition-colors">  projects </a>
+                        <a href="#contact" className="text-gray-300 hove:text-white transition-colors">  contact </a>
 
                     </div>
                 </div>

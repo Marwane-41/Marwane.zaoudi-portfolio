@@ -20,6 +20,7 @@ function App() {
 
       <Navbar menuOpen={menuOpen} setMenuOpen= {setMenuOpen}> </Navbar> 
       <MobileMenu menuOpen={menuOpen} setMenuOpen= {setMenuOpen}> </MobileMenu> 
+      
       <Home></Home>
       <About></About>
       </div>
