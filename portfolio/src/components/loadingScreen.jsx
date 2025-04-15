@@ -10,7 +10,7 @@ export const LoadingScreen = ({onComplete}) => {
         const interval = setInterval(()=> {
             setText(fullText.substring(0,index));
             index++;
-
+            
             if(index > fullText.length){
                 clearInterval(interval);
 
