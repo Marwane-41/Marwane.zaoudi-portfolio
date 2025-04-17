@@ -6,7 +6,7 @@ import { MobileMenu } from './components/MobileMenu';
 import { Home } from './components/sections/home';
 import { About } from './components/sections/about';
 import { Projects } from './components/sections/Projects';
-import { contact } from './components/sections/contact';
+import { Contact } from './components/sections/contact';
 import './index.css';
 
 function App() {
