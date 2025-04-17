@@ -7,11 +7,11 @@ export const Home = () => {
         <RevealOnScroll>
         <div className="text-center z-10 px-3">
             <h1 className="text-5xl md:text-8xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-300 bg-clip-text text-transparent leading-right">
-                Hi, I am Marwane :)</h1>
+                Hi, I am Marwane</h1>
 
 
             <p className="text-grey-400 text-lg mb-8 mx-w-lg mx-auto">
-                I am a university student in my 4th year , soon to be a full-stack developer , i like to play sports and video games 
+                A University Of Calgary Student , Full-stack developer .I like to play soccer and video games in my free time  
             </p>
             <div className="flex justify-center space-x-4">
                 <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 
