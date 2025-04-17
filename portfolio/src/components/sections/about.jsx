@@ -4,25 +4,26 @@ export const About = () => {
 
 
     const frontendSkills = [
-        "React", "HTML" , "CSS TAILWIND",
+        "React", "HTML" , "CSS TAILWIND", "javaScript"
     ];
 
     const backendSkills = [ 
-        "js", "next.js",
+        , "Next.js", "Mysql", 
     ];
 
     return ( <section id="about" className="min-h-screen flex items-center justify-center py-20"> 
     
     
         <RevealOnScroll>
-    <div className="max-w-3xl mx-auto px-4">
+    <div className="max-w-3xl mx-auto px-5">
 
         <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
         About me </h2>
 
-        <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6"> 
-            just something about me, very passionate about doing things i like  
+        <div className="rounded-xl p-5 border-white/10 border hover:-translate-y-1 transition-all">
+            <p className="text-white-300 mb-2"> 
+            I am a 4th year in computer science , throughout my academic years , i have gathered enough knowledge and 
+            experience , learning both Front-end and Back-end , and my goal is to become and fully knowledgeable full-stack developer 
             </p>
         </div>
 
@@ -30,7 +31,7 @@ export const About = () => {
 
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
 
-                <h3 className="text-xl font-bold mb-4"> Frontend</h3>
+                <h3 className="text-xl font-bold mb-4"> Front-end</h3>
                 <div className="flex flex-wrap gap-2"> 
 
                     {frontendSkills.map((tech, key) => (
@@ -48,7 +49,7 @@ export const About = () => {
 
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
 
-                <h3 className="text-xl font-bold mb-4"> BackEnd</h3>
+                <h3 className="text-xl font-bold mb-4"> Back-End</h3>
                 <div className="flex flex-wrap gap-2"> 
 
                     {backendSkills.map((tech, key) => (
@@ -72,7 +73,7 @@ export const About = () => {
                         <strong> B.S in computer science </strong> University of Calgary (2020 - 2025)
                     </li>
                     <li>
-                        Relevant coursework : 
+                        <strong> Relevant coursework : </strong> Computer-Human interaction , Intro to software engineering ...  
 
                     </li>
                 </ul>
@@ -82,14 +83,14 @@ export const About = () => {
                 <div className="space-y-4 text-gray-300">
                     <div>
                         <h4 className="font-semibold"> Line cook at Delta Hotels Calgary (2023-2025) </h4>
-                        <p> Stuff i did 
+                        <p> Ensured fast-paced delivery of food while paying attention to details 
 
                         </p>
                     </div>
 
                     <div>
-                        <h4 className="font-semibold"> Volunteer (2023-2025) </h4>
-                        <p> Stuff i did 
+                        <h4 className= "font-semibold"> Volunteer at <strong> IKRAE HIGH SCHOOL </strong> (2017-2018) </h4>
+                        <p> - Helped fundraising and distributing donations to people in need 
                             
                         </p>
                     </div>

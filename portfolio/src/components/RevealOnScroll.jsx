@@ -18,7 +18,6 @@ export const RevealOnScroll = ({children}) =>{
             return () => observer.disconnect();
 
         })
-
     // determine if we wanna reveal the info or not 
     return <div ref={ref}  className="reveal" > {children} </div>
 
