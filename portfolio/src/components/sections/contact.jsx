@@ -1,4 +1,5 @@
-import {RevealOnScroll}
+import { }
+
 
 export const Contact = () => {
 
