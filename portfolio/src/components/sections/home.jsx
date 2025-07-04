@@ -11,7 +11,7 @@ export const Home = () => {
 
 
             <p className="text-grey-400 text-lg mb-8 mx-w-lg mx-auto">
-                A University Of Calgary Student , Full-stack developer .I like to play soccer and video games in my free time  
+                
             </p>
             <div className="flex justify-center space-x-4">
                 <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 

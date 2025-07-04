@@ -4,11 +4,11 @@ export const About = () => {
 
 
     const frontendSkills = [
-        "React", "HTML" , "CSS TAILWIND", "javaScript"
+        "React", "HTML" , "CSS TAILWIND", "JavaScript"
     ];
 
     const backendSkills = [ 
-        , "Next.js", "Mysql", 
+        , "Next.js", "Mysql", "Node.js"
     ];
 
     const OtherSkills = [ 
@@ -25,10 +25,16 @@ export const About = () => {
         About me </h2>
 
         <div className="rounded-xl p-5 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-white-300 mb-2"> 
-            I am a 4th year in computer science , throughout my academic years , i have gathered enough knowledge and 
-            experience , learning both Front-end and Back-end , and my goal is to become and fully knowledgeable full-stack developer 
-            </p>
+        <p className="text-gray-300 mb-4 leading-relaxed">
+            Hi, I’m <span className="font-semibold text-white">Marwane Zaoudi</span> — a Computer Science student at the University of Calgary and a passionate front-end developer.  
+            <br /><br />
+            I love building clean, fast, and scalable web applications using tools like <span className="text-blue-400">React, Next.js, Node.js, and Tailwind CSS</span>. Whether it’s designing sleek UIs or connecting APIs on the backend, I enjoy crafting user-focused solutions that solve real-world problems.
+            <br /><br />
+            I’m currently working on a freelance initiative called <span className="italic text-white">Fresh Start</span>, where I help small local businesses build or modernize their online presence. I also created <span className="italic text-white">Cookistry</span>, a full-stack recipe app focused on performance, reusability, and responsive design.
+            <br /><br />
+            While I’m still growing my back-end skills with tools like <span className="text-blue-400">Node.js and MySQL</span>, my main focus is building great front-end experiences and continuously improving as a modern web developer.
+        </p>
+
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
