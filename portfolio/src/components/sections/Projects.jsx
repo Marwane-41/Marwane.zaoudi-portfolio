@@ -29,7 +29,7 @@ return <section id = "projects" className="min-h-screen flex items-center justif
                 </div>
 
                 <div className="flex flex-wrap gap-2 mb-4"> 
-                    <a href="https://github.com/Marwane-41/Fresh-Start"
+                    <a href="https://github.com/Marwane-41/LandlordHub"
                         target= "_blank"
                     className="text-blue-400 hover:text-blue-300 transition-colors my-4">  View Project  </a>
                 </div>
